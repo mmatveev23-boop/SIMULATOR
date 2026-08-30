@@ -1,0 +1,50 @@
+# deps
+node_modules/
+.pnpm-store/
+
+# build
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# audio / recordings (никогда не коммитим записи разговоров)
+/recordings/
+/uploads/
+*.wav
+*.mp3
+*.webm
+*.ogg
+
+# db
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# test / coverage
+coverage/
+playwright-report/
+test-results/
+
+# local scratch
+.scratch/
